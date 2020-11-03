@@ -14,6 +14,6 @@ Canonical / permanent URL: __http://costateixeira/devdays-covid19-vaccine
 Issues and change requests are managed here:  
 
 Issues:  __https://github.com/costateixeira/devdays-covid19-vaccine/issues__  
-Kanban board:  __https://github.com/repos/costateixeira/devdays-covid19-vaccine/projects/1__  
+Kanban board:  __https://github.com/costateixeira/devdays-covid19-vaccine/projects/1__  
 
 ---
