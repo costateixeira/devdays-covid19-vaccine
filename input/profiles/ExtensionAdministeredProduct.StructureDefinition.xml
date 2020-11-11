@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="extension-administeredproduct" />
+  <meta>
+    <versionId value="1" />
+    <lastUpdated value="2020-11-11T13:45:29.595+00:00" />
+  </meta>
+  <url value="http://ardon.nl/fhir/StructureDefinition/Extension-AdministeredProduct" />
+  <name value="ExtensionAdministeredProduct" />
+  <title value="Vaccination Product Administered" />
+  <status value="draft" />
+  <date value="2020-11-11T13:45:29.3489849+00:00" />
+  <description value="The product administered during a vaccination event." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Immunization" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://ardon.nl/fhir/StructureDefinition/Extension-AdministeredProduct" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

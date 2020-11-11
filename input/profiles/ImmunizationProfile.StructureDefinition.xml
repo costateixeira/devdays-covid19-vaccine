@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="immunization-profile" />
+  <meta>
+    <versionId value="7" />
+    <lastUpdated value="2020-11-11T16:56:29.629+00:00" />
+  </meta>
+  <url value="http://ardon.nl/fhir/StructureDefinition/ImmunizationProfile" />
+  <name value="ImmunizationProfile" />
+  <title value="Immunization Profile" />
+  <status value="draft" />
+  <date value="2020-11-11T16:56:29.4070975+00:00" />
+  <description value="This profile represents the constraints applied to the Immunization resource by the medicine regulatory authority." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="cda" />
+    <uri value="http://hl7.org/v3/cda" />
+    <name value="CDA (R2)" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Immunization" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Immunization" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Immunization.extension">
+      <path value="Immunization.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Immunization.extension:vaccinationProcedure">
+      <path value="Immunization.extension" />
+      <sliceName value="vaccinationProcedure" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure" />
+      </type>
+    </element>
+    <element id="Immunization.extension:administeredProduct">
+      <path value="Immunization.extension" />
+      <sliceName value="administeredProduct" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://ardon.nl/fhir/StructureDefinition/Extension-AdministeredProduct" />
+      </type>
+    </element>
+    <element id="Immunization.vaccineCode.coding">
+      <path value="Immunization.vaccineCode.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Immunization.vaccineCode.coding:vaccinesGpsUvIps">
+      <path value="Immunization.vaccineCode.coding" />
+      <sliceName value="vaccinesGpsUvIps" />
+      <short value="Vaccines (GPS) - IPS" />
+      <definition value="This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 71181003 |Product containing vaccine (product)|. The concepts currently included in the value set are from the September 2019 release of the GPS, which is based on the July 2019 SNOMED CT International Edition release." />
+      <binding>
+        <strength value="required" />
+        <description value="VaccinesGpsUvIps" />
+        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/vaccines-gps-uv-ips" />
+      </binding>
+    </element>
+    <element id="Immunization.vaccineCode.coding:vaccinesGpsUvIps.system">
+      <path value="Immunization.vaccineCode.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.vaccineCode.coding:vaccinesGpsUvIps.code">
+      <path value="Immunization.vaccineCode.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.vaccineCode.coding:atcClass">
+      <path value="Immunization.vaccineCode.coding" />
+      <sliceName value="atcClass" />
+      <binding>
+        <strength value="required" />
+        <description value="WhoAtcUvIps" />
+        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips" />
+      </binding>
+    </element>
+    <element id="Immunization.vaccineCode.coding:atcClass.system">
+      <path value="Immunization.vaccineCode.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.vaccineCode.coding:atcClass.code">
+      <path value="Immunization.vaccineCode.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.occurrence[x]">
+      <path value="Immunization.occurrence[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Immunization.occurrence[x]:occurrenceDateTime">
+      <path value="Immunization.occurrenceDateTime" />
+      <sliceName value="occurrenceDateTime" />
+      <comment value="The use of the DateTime data type is required when immunizations are given by the healthcare provide as a specific date and time should then always be known." />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+    <element id="Immunization.occurrence[x]:occurrenceString">
+      <path value="Immunization.occurrenceString" />
+      <sliceName value="occurrenceString" />
+      <comment value="The use of the String data type is only acceptable when an exact date is not known." />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Immunization.site">
+      <path value="Immunization.site" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/target-site-uv-ips" />
+      </binding>
+    </element>
+    <element id="Immunization.route">
+      <path value="Immunization.route" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Immunization.performer.actor">
+      <path value="Immunization.performer.actor" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+      </type>
+    </element>
+    <element id="Immunization.education">
+      <path value="Immunization.education" />
+      <max value="0" />
+    </element>
+    <element id="Immunization.reaction.date">
+      <path value="Immunization.reaction.date" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.reaction.detail">
+      <path value="Immunization.reaction.detail" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
