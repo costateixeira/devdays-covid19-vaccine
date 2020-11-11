@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunizationprofile-example"/>
+  <meta>
+    <profile value="http://ardon.nl/fhir/StructureDefinition/ImmunizationProfile"/>
+  </meta>
+  <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="33879002"/>
+        <display value="Coronavirus vaccination"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://ardon.nl/fhir/StructureDefinition/Extension-AdministeredProduct">
+    <valueReference>
+      <reference value="Medication/example"/>
+      <display value="Specific Vaccination Product"/>
+    </valueReference>
+  </extension>
+  <status value="completed"/>
+  <notGiven value="false"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="836369007"/>
+      <display value="Virus antigen-containing vaccine product"/>
+    </coding>
+    <coding>
+      <system value="http://www.whocc.no/atc"/>
+      <code value="J07B"/>
+      <display value="VIRALE VACCINS"/>
+    </coding>
+    <text value="Fluvax (Influenza)"/>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/example"/>
+  </patient>
+  <date value="2013-01-10"/>
+  <primarySource value="true"/>
+  <location>
+    <reference value="Location/example"/>
+  </location>
+  <manufacturer>
+    <reference value="Organization/example"/>
+  </manufacturer>
+  <lotNumber value="AAJN11K"/>
+  <expirationDate value="2015-02-15"/>
+  <route>
+    <coding>
+      <system value="http://hl7.org/fhir/v3/RouteOfAdministration"/>
+      <code value="IM"/>
+      <display value="Injection, intramuscular"/>
+    </coding>
+  </route>
+  <doseQuantity>
+    <value value="5"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg"/>
+  </doseQuantity>
+  <practitioner>
+    <role>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0443"/>
+        <code value="OP"/>
+      </coding>
+    </role>
+    <actor>
+      <reference value="PractitionerRole/example"/>
+    </actor>
+  </practitioner>
+  <practitioner>
+    <role>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0443"/>
+        <code value="AP"/>
+      </coding>
+    </role>
+    <actor>
+      <reference value="PractitionerRole/example"/>
+    </actor>
+  </practitioner>
+  <reaction>
+    <date value="2013-01-10"/>
+    <detail>
+      <reference value="Observation/example"/>
+    </detail>
+  </reaction>
+</Immunization>

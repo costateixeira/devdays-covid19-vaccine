@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vaccines-gps-uv-ips"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Vaccines (GPS) - IPS</h2><div><p>This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 71181003 |Product containing vaccine (product)|.  The concepts currently included in the value set are from the September 2019 release of the GPS, which is based on the July 2019 SNOMED CT International Edition release.</p>
+</div><p><b>Copyright Statement:</b> The GPS is produced by SNOMED International under the terms of the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/)
+
+Additional information about this license specific to SNOMED International’s release of the GPS:
+* SNOMED CT is © and ® SNOMED International. The right to maintain the GPS remains vested exclusively in SNOMED International.
+* The Licensee can redistribute the GPS.
+* The Licensee can create derivatives or implementation-related products and services based on the GPS.
+* The Licensee cannot claim that SNOMED International or any of its Members endorses the Licensee’s derivative because it uses content from the GPS.
+* Neither SNOMED International nor any of the contributors accept any liability for the Licensee’s use or redistribution of the GPS.
+* SNOMED CT® was originally created by the College of American Pathologists.
+
+Without obtaining prior written permission from SNOMED International, you are expressly prohibited from using, distributing or reproducing the SNOMED International, SNOMED CT or SNOMED GPS logo, service mark or trademark. Please review all terms and conditions of use [here](http://www.snomed.org/terms-and-conditions).</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> version <code>http://snomed.info/sct/900000000000207008/version/20190731</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449019003">449019003</a></td><td>Acellular pertussis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333549004">333549004</a></td><td>Adsorbed diphtheria+tetanus vaccine injection suspension 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=347664008">347664008</a></td><td>Adsorbed tetanus vaccine injection solution ampule (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333641007">333641007</a></td><td>Adsorbed tetanus vaccine injection solution prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346313005">346313005</a></td><td>Allergen extract vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333521006">333521006</a></td><td>Anthrax vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333522004">333522004</a></td><td>Anthrax vaccine injection solution 0.5mL ampule (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=400563009">400563009</a></td><td>Anthrax vaccine, adsorbed injection solution 5mL vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11185009">11185009</a></td><td>Autogenous vaccine - autogenous bacterin (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=62354009">62354009</a></td><td>Bronchitis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7230005">7230005</a></td><td>Brucella vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=409580000">409580000</a></td><td>CVD 103-HgR live attenuated oral cholera vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346728008">346728008</a></td><td>Cat allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346747006">346747006</a></td><td>Cat allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346364006">346364006</a></td><td>Cat allergy vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35736007">35736007</a></td><td>Cholera vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449240007">449240007</a></td><td>Diphtheria + acellular pertussis adsorbed + inactivated polio + tetanus toxoids vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=412373007">412373007</a></td><td>Diphtheria + pertussis + tetanus + Haemophilus influenzae type b vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421245007">421245007</a></td><td>Diphtheria + pertussis + tetanus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427806004">427806004</a></td><td>Diphtheria + tetanus + haemophilus influenzae type b vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414002009">414002009</a></td><td>Diphtheria + tetanus + inactivated poliovirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414003004">414003004</a></td><td>Diphtheria + tetanus + pertussis + inactivated poliovirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414004005">414004005</a></td><td>Diphtheria + tetanus + pertussis + poliomyelitis + haemophilus influenzae b vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=426842004">426842004</a></td><td>Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus + recombinant haemophilus influenzae type B vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427542001">427542001</a></td><td>Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414005006">414005006</a></td><td>Diphtheria + tetanus + pertussis + poliomyelitis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=426081003">426081003</a></td><td>Diphtheria + tetanus + pertussis + recombinant hepatitis B virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414006007">414006007</a></td><td>Diphtheria + tetanus + poliomyelitis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=350327004">350327004</a></td><td>Diphtheria + tetanus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346402006">346402006</a></td><td>Diphtheria single antigen vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=426361005">426361005</a></td><td>Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427682002">427682002</a></td><td>Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis toxoid 25micrograms injection solution 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=428214002">428214002</a></td><td>Diphtheria vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=396457007">396457007</a></td><td>Diphtheria, acellular pertussis, hepatitis B and inactivated polio vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346729000">346729000</a></td><td>Dog allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346748001">346748001</a></td><td>Dog allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346405008">346405008</a></td><td>Dog allergy vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=409152009">409152009</a></td><td>Dried smallpox vaccine, calf lymph type 1 vial + diluent 0.25mL syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346730005">346730005</a></td><td>Grass allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346750009">346750009</a></td><td>Grass allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=68113000">68113000</a></td><td>Haemophilus b oligosaccharide conjugate(diphtheria CRM&gt;197&lt; protein conjugate) vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=766203003">766203003</a></td><td>Haemophilus b polysaccharide 10micrograms/tetanus toxoid 30micrograms powder for conventional release solution for injection vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=48028008">48028008</a></td><td>Haemophilus b polysaccharide conjugate (diphtheria toxoid conjugate) vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333693009">333693009</a></td><td>Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333696001">333696001</a></td><td>Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333691006">333691006</a></td><td>Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial+prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=426971004">426971004</a></td><td>Haemophilus influenzae Type b + recombinant hepatitis B virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=425555004">425555004</a></td><td>Haemophilus influenzae Type b + tetanus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333680004">333680004</a></td><td>Haemophilus influenzae Type b vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=347647005">347647005</a></td><td>Haemophilus influenzae Type b vaccine injection (pdr for recon)+diluent (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=698026000">698026000</a></td><td>Haemophilus influenzae b (Ross strain) capsular polysaccharide Meningococcal Protein Conjugate Vaccine/Hepatitis B Surface Antigen Vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=423912009">423912009</a></td><td>Haemophilus influenzae type b + Meningococcal group C vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427048007">427048007</a></td><td>Haemophilus influenzae type b 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427514003">427514003</a></td><td>Haemophilus influenzae type b 7.5micrograms/recombinant hepatitis B virus surface antigen 5micrograms injection solution 0.5mL vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333708002">333708002</a></td><td>Hepatitis A 1440u//typhoid 25mcg vaccine injection solution 1mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=406324009">406324009</a></td><td>Hepatitis A vaccine injection suspension 0.5 mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=406325005">406325005</a></td><td>Hepatitis A vaccine injection suspension 1 mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=348045000">348045000</a></td><td>Hepatitis A vaccine injection suspension prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14745005">14745005</a></td><td>Hepatitis A virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333702001">333702001</a></td><td>Hepatitis A+B vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333707007">333707007</a></td><td>Hepatitis A+typhoid vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333569009">333569009</a></td><td>Hepatitis B vaccine 10micrograms/mL injection suspension 1mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333568001">333568001</a></td><td>Hepatitis B vaccine 10micrograms/mL injection suspension 1mL vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333573007">333573007</a></td><td>Hepatitis B vaccine 40micrograms/mL injection suspension 1ml vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=412403009">412403009</a></td><td>Hepatitis B virus recombinant vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34689006">34689006</a></td><td>Hepatitis B virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346731009">346731009</a></td><td>Horse allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346751008">346751008</a></td><td>Horse allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346467003">346467003</a></td><td>Horse dander allergy vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346468008">346468008</a></td><td>House dust allergy vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346733007">346733007</a></td><td>House mite allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346753006">346753006</a></td><td>House mite allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346469000">346469000</a></td><td>House mite allergy vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=424519000">424519000</a></td><td>Human papillomavirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448897007">448897007</a></td><td>Inactivated Influenza split virion subtype H1N1v-like strain adjuvant vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=451022006">451022006</a></td><td>Inactivated Influenza split virion subtype H1N1v-like strain unadjuvanted vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346525009">346525009</a></td><td>Inactivated Influenza surface antigen sub-unit vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=348047008">348047008</a></td><td>Inactivated Influenza surface antigen sub-unit vaccine prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419562000">419562000</a></td><td>Inactivated Influenza surface antigen virosome vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418707004">418707004</a></td><td>Inactivated Influenza surface antigen virosome vaccine prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=408752008">408752008</a></td><td>Inactivated influenza split virion vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125688000">125688000</a></td><td>Inactivated poliovirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=409579003">409579003</a></td><td>Inactivated whole-cell/recombinant-B-subunit cholera vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=348046004">348046004</a></td><td>Influenza (split virion) vaccine injection suspension 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443161002">443161002</a></td><td>Influenza A virus subtype H1N1 monovalent vaccine 0.5mL injection solution (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443651005">443651005</a></td><td>Influenza A virus subtype H1N1 vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346524008">346524008</a></td><td>Influenza split virion vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427036009">427036009</a></td><td>Influenza virus H5N1 vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427077008">427077008</a></td><td>Influenza virus H5N1 vaccine injection solution 5mL multi-dose vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=46233009">46233009</a></td><td>Influenza virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=400788004">400788004</a></td><td>Influenza virus vaccine triv 45mcg/0.5mL injection solution 0.5mL syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=400564003">400564003</a></td><td>Influenza virus vaccine trivalent 45mcg/0.5mL injection solution 5mL vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=409269001">409269001</a></td><td>Intranasal influenza live virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333697005">333697005</a></td><td>Japanese B encephalitis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333698000">333698000</a></td><td>Japanese B encephalitis vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=326303007">326303007</a></td><td>Lactobacill acidophil vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=442560004">442560004</a></td><td>Live adenovirus type 4 vaccine oral dosage form (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=442561000">442561000</a></td><td>Live adenovirus type 7 vaccine oral dosage form (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=440075005">440075005</a></td><td>Live measles + rubella vaccine injection dose form (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125690004">125690004</a></td><td>Live poliovirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=428688001">428688001</a></td><td>Live smallpox vaccine powder 3mL vial + diluent (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=116083002">116083002</a></td><td>Lyme disease vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=377089008">377089008</a></td><td>Lyme disease vaccine recombi 60mcg/mL injection solution 0.5mL ampule (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=376208003">376208003</a></td><td>Lyme disease vaccine recombi 6mcg/mL injection solution 5mL ampule (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419550004">419550004</a></td><td>Measles + mumps + rubella + varicella vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=386012008">386012008</a></td><td>Measles vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=400449000">400449000</a></td><td>Measles virus vaccine, live, 0.5mL/vial powder for injection (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61153008">61153008</a></td><td>Measles, mumps and rubella vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=347649008">347649008</a></td><td>Measles/mumps/rubella vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419771007">419771007</a></td><td>Measles/mumps/rubella/varicella vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=373869007">373869007</a></td><td>Melanoma vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421281005">421281005</a></td><td>Meningococcal A+C vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=359068008">359068008</a></td><td>Meningococcal C conjugate vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333668007">333668007</a></td><td>Meningococcal C conjugate vaccine injection solution prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333670003">333670003</a></td><td>Meningococcal C conjugate vaccine injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333669004">333669004</a></td><td>Meningococcal C conjugate vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=422069000">422069000</a></td><td>Meningococcal group C vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420261000">420261000</a></td><td>Meningococcal groups A+C+W135+Y vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=347659009">347659009</a></td><td>Meningococcal polysaccharide vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=423531006">423531006</a></td><td>Meningococcus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=123686003">123686003</a></td><td>Mixed bacterial vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125696005">125696005</a></td><td>Mixed respiratory vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=90043005">90043005</a></td><td>Mumps live virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=376997008">376997008</a></td><td>Mumps virus vaccine live injection solution 0.5mL vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=428601009">428601009</a></td><td>Paratyphoid vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=409568008">409568008</a></td><td>Pentavalent botulinum toxoid vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61602008">61602008</a></td><td>Pertussis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11866009">11866009</a></td><td>Plague vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448964007">448964007</a></td><td>Pneumococcal 13-valent conjugate vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125714002">125714002</a></td><td>Pneumococcal 7-valent conjugate vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=135643009">135643009</a></td><td>Pneumococcal polysaccharide conjugated vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=135642004">135642004</a></td><td>Pneumococcal polysaccharide vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333598008">333598008</a></td><td>Pneumococcal vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333603000">333603000</a></td><td>Poliomyelitis inactivated vaccine injection (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=111164008">111164008</a></td><td>Poliovirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=320835005">320835005</a></td><td>Pollen allergy preparations (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=70447008">70447008</a></td><td>Polyvalent pneumococcal vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=400287005">400287005</a></td><td>Polyvalent pneumococcal vaccine injection solution 0.5mL syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=430410002">430410002</a></td><td>Product containing Influenza virus vaccine in nasal dose form (medicinal product form)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=64296005">64296005</a></td><td>Product containing Staphylococcus toxoid vaccine (medicinal product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125580002">125580002</a></td><td>Product containing antigen of whole cell pertussis and diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418268006">418268006</a></td><td>Product containing attenuated Bacillus Calmette Guerin (medicinal product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=68208009">68208009</a></td><td>Product containing diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58098008">58098008</a></td><td>Product containing tetanus toxoid adsorbed (medicinal product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=105949007">105949007</a></td><td>Product containing toxoid (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427533008">427533008</a></td><td>Q fever vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333607004">333607004</a></td><td>Rabies inactivated vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333606008">333606008</a></td><td>Rabies vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125715001">125715001</a></td><td>Rabies vaccine, adsorbed (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3526007">3526007</a></td><td>Rabies vaccine, human (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=425638005">425638005</a></td><td>Recombinant hepatitis B virus surface antigen 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms injection solution 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13178004">13178004</a></td><td>Rickettsial vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=45355008">45355008</a></td><td>Rocky Mountain spotted fever vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=766567004">766567004</a></td><td>Rotavirus live vaccine powder for conventional release oral suspension 1mL (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=116077000">116077000</a></td><td>Rotavirus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=347653005">347653005</a></td><td>Rubella live vaccine powder and solvent for injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=386013003">386013003</a></td><td>Rubella vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=358640003">358640003</a></td><td>Silver birch allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=358641004">358641004</a></td><td>Silver birch allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33234009">33234009</a></td><td>Smallpox vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333620001">333620001</a></td><td>Smallpox vaccine injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=81970008">81970008</a></td><td>Swine influenza virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=375054005">375054005</a></td><td>Tetanus toxoid, adsorbed 20u/mL 0.5mL injection solution ampule (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333621002">333621002</a></td><td>Tetanus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333699008">333699008</a></td><td>Tick-borne encephalitis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333700009">333700009</a></td><td>Tick-borne encephalitis vaccine injection solution prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346734001">346734001</a></td><td>Timothy grass allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346754000">346754000</a></td><td>Timothy grass allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346735000">346735000</a></td><td>Treemix allergy initial kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346755004">346755004</a></td><td>Treemix allergy maintenance kit (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420538001">420538001</a></td><td>Tuberculosis vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=412324003">412324003</a></td><td>Typhoid VI polysaccharide vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346696005">346696005</a></td><td>Typhoid live oral vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346639000">346639000</a></td><td>Typhoid polysaccharide vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=348070000">348070000</a></td><td>Typhoid polysaccharide vaccine 25micrograms injection suspension 0.5mL prefilled syringe (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=89428009">89428009</a></td><td>Typhoid vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=346697001">346697001</a></td><td>Typhoid whole cell vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=52628005">52628005</a></td><td>Typhoid-paratyphoid vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37146000">37146000</a></td><td>Typhus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10332002">10332002</a></td><td>Vaccine - bacterin - toxoid (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=669007">669007</a></td><td>Vaccinia virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=412530002">412530002</a></td><td>Varicella virus live vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=108729007">108729007</a></td><td>Varicella virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407746005">407746005</a></td><td>Varicella-zoster live attenuated vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407933006">407933006</a></td><td>Varicella-zoster live attenuated vaccine injection (pdr for recon)+solvent (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407737004">407737004</a></td><td>Varicella-zoster vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=370459009">370459009</a></td><td>West Nile virus vaccine (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=333652001">333652001</a></td><td>Yellow fever live vaccine injection solution vial (product)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=56844000">56844000</a></td><td>Yellow fever vaccine (product)</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/ips/ValueSet/vaccines-gps-uv-ips"/>
+  <identifier>
+    <use value="official"/>
+    <system value="http://art-decor.org/ns/oids/vs"/>
+    <value value="2.16.840.1.113883.11.22.44"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="VaccinesGpsUvIps"/>
+  <title value="Vaccines (GPS) - IPS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-05-19T18:37:29+00:00"/>
+  <publisher value="Health Level Seven International - Patient Care Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes the codes from the SNOMED International Global Patient Set (GPS) subset of SNOMED CT that are included in: all descendants of 71181003 |Product containing vaccine (product)|.  The concepts currently included in the value set are from the September 2019 release of the GPS, which is based on the July 2019 SNOMED CT International Edition release."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="The GPS is produced by SNOMED International under the terms of the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/)&#xA;&#xA;Additional information about this license specific to SNOMED International&#x2019;s release of the GPS:&#xA;* SNOMED CT is &#xA9; and &#xAE; SNOMED International. The right to maintain the GPS remains vested exclusively in SNOMED International.&#xA;* The Licensee can redistribute the GPS.&#xA;* The Licensee can create derivatives or implementation-related products and services based on the GPS.&#xA;* The Licensee cannot claim that SNOMED International or any of its Members endorses the Licensee&#x2019;s derivative because it uses content from the GPS.&#xA;* Neither SNOMED International nor any of the contributors accept any liability for the Licensee&#x2019;s use or redistribution of the GPS.&#xA;* SNOMED CT&#xAE; was originally created by the College of American Pathologists.&#xA;&#xA;Without obtaining prior written permission from SNOMED International, you are expressly prohibited from using, distributing or reproducing the SNOMED International, SNOMED CT or SNOMED GPS logo, service mark or trademark. Please review all terms and conditions of use [here](http://www.snomed.org/terms-and-conditions)."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20190731"/>
+      <concept>
+        <code value="449019003"/>
+        <display value="Acellular pertussis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333549004"/>
+        <display value="Adsorbed diphtheria+tetanus vaccine injection suspension 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="347664008"/>
+        <display value="Adsorbed tetanus vaccine injection solution ampule (product)"/>
+      </concept>
+      <concept>
+        <code value="333641007"/>
+        <display value="Adsorbed tetanus vaccine injection solution prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="346313005"/>
+        <display value="Allergen extract vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333521006"/>
+        <display value="Anthrax vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333522004"/>
+        <display value="Anthrax vaccine injection solution 0.5mL ampule (product)"/>
+      </concept>
+      <concept>
+        <code value="400563009"/>
+        <display value="Anthrax vaccine, adsorbed injection solution 5mL vial (product)"/>
+      </concept>
+      <concept>
+        <code value="11185009"/>
+        <display value="Autogenous vaccine - autogenous bacterin (product)"/>
+      </concept>
+      <concept>
+        <code value="62354009"/>
+        <display value="Bronchitis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="7230005"/>
+        <display value="Brucella vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="409580000"/>
+        <display value="CVD 103-HgR live attenuated oral cholera vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346728008"/>
+        <display value="Cat allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346747006"/>
+        <display value="Cat allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346364006"/>
+        <display value="Cat allergy vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="35736007"/>
+        <display value="Cholera vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="449240007"/>
+        <display value="Diphtheria + acellular pertussis adsorbed + inactivated polio + tetanus toxoids vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="412373007"/>
+        <display value="Diphtheria + pertussis + tetanus + Haemophilus influenzae type b vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="421245007"/>
+        <display value="Diphtheria + pertussis + tetanus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="427806004"/>
+        <display value="Diphtheria + tetanus + haemophilus influenzae type b vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="414002009"/>
+        <display value="Diphtheria + tetanus + inactivated poliovirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="414003004"/>
+        <display value="Diphtheria + tetanus + pertussis + inactivated poliovirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="414004005"/>
+        <display value="Diphtheria + tetanus + pertussis + poliomyelitis + haemophilus influenzae b vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="426842004"/>
+        <display value="Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus + recombinant haemophilus influenzae type B vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="427542001"/>
+        <display value="Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="414005006"/>
+        <display value="Diphtheria + tetanus + pertussis + poliomyelitis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="426081003"/>
+        <display value="Diphtheria + tetanus + pertussis + recombinant hepatitis B virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="414006007"/>
+        <display value="Diphtheria + tetanus + poliomyelitis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="350327004"/>
+        <display value="Diphtheria + tetanus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346402006"/>
+        <display value="Diphtheria single antigen vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="426361005"/>
+        <display value="Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="427682002"/>
+        <display value="Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis toxoid 25micrograms injection solution 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="428214002"/>
+        <display value="Diphtheria vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="396457007"/>
+        <display value="Diphtheria, acellular pertussis, hepatitis B and inactivated polio vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346729000"/>
+        <display value="Dog allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346748001"/>
+        <display value="Dog allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346405008"/>
+        <display value="Dog allergy vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="409152009"/>
+        <display value="Dried smallpox vaccine, calf lymph type 1 vial + diluent 0.25mL syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="346730005"/>
+        <display value="Grass allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346750009"/>
+        <display value="Grass allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="68113000"/>
+        <display value="Haemophilus b oligosaccharide conjugate(diphtheria CRM&gt;197&lt; protein conjugate) vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="766203003"/>
+        <display value="Haemophilus b polysaccharide 10micrograms/tetanus toxoid 30micrograms powder for conventional release solution for injection vial (product)"/>
+      </concept>
+      <concept>
+        <code value="48028008"/>
+        <display value="Haemophilus b polysaccharide conjugate (diphtheria toxoid conjugate) vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333693009"/>
+        <display value="Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="333696001"/>
+        <display value="Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial (product)"/>
+      </concept>
+      <concept>
+        <code value="333691006"/>
+        <display value="Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial+prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="426971004"/>
+        <display value="Haemophilus influenzae Type b + recombinant hepatitis B virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="425555004"/>
+        <display value="Haemophilus influenzae Type b + tetanus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333680004"/>
+        <display value="Haemophilus influenzae Type b vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="347647005"/>
+        <display value="Haemophilus influenzae Type b vaccine injection (pdr for recon)+diluent (product)"/>
+      </concept>
+      <concept>
+        <code value="698026000"/>
+        <display value="Haemophilus influenzae b (Ross strain) capsular polysaccharide Meningococcal Protein Conjugate Vaccine/Hepatitis B Surface Antigen Vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="423912009"/>
+        <display value="Haemophilus influenzae type b + Meningococcal group C vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="427048007"/>
+        <display value="Haemophilus influenzae type b 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="427514003"/>
+        <display value="Haemophilus influenzae type b 7.5micrograms/recombinant hepatitis B virus surface antigen 5micrograms injection solution 0.5mL vial (product)"/>
+      </concept>
+      <concept>
+        <code value="333708002"/>
+        <display value="Hepatitis A 1440u//typhoid 25mcg vaccine injection solution 1mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="406324009"/>
+        <display value="Hepatitis A vaccine injection suspension 0.5 mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="406325005"/>
+        <display value="Hepatitis A vaccine injection suspension 1 mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="348045000"/>
+        <display value="Hepatitis A vaccine injection suspension prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="14745005"/>
+        <display value="Hepatitis A virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333702001"/>
+        <display value="Hepatitis A+B vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333707007"/>
+        <display value="Hepatitis A+typhoid vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333569009"/>
+        <display value="Hepatitis B vaccine 10micrograms/mL injection suspension 1mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="333568001"/>
+        <display value="Hepatitis B vaccine 10micrograms/mL injection suspension 1mL vial (product)"/>
+      </concept>
+      <concept>
+        <code value="333573007"/>
+        <display value="Hepatitis B vaccine 40micrograms/mL injection suspension 1ml vial (product)"/>
+      </concept>
+      <concept>
+        <code value="412403009"/>
+        <display value="Hepatitis B virus recombinant vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="34689006"/>
+        <display value="Hepatitis B virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346731009"/>
+        <display value="Horse allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346751008"/>
+        <display value="Horse allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346467003"/>
+        <display value="Horse dander allergy vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346468008"/>
+        <display value="House dust allergy vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346733007"/>
+        <display value="House mite allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346753006"/>
+        <display value="House mite allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346469000"/>
+        <display value="House mite allergy vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="424519000"/>
+        <display value="Human papillomavirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="448897007"/>
+        <display value="Inactivated Influenza split virion subtype H1N1v-like strain adjuvant vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="451022006"/>
+        <display value="Inactivated Influenza split virion subtype H1N1v-like strain unadjuvanted vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346525009"/>
+        <display value="Inactivated Influenza surface antigen sub-unit vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="348047008"/>
+        <display value="Inactivated Influenza surface antigen sub-unit vaccine prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="419562000"/>
+        <display value="Inactivated Influenza surface antigen virosome vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="418707004"/>
+        <display value="Inactivated Influenza surface antigen virosome vaccine prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="408752008"/>
+        <display value="Inactivated influenza split virion vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="125688000"/>
+        <display value="Inactivated poliovirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="409579003"/>
+        <display value="Inactivated whole-cell/recombinant-B-subunit cholera vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="348046004"/>
+        <display value="Influenza (split virion) vaccine injection suspension 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="443161002"/>
+        <display value="Influenza A virus subtype H1N1 monovalent vaccine 0.5mL injection solution (product)"/>
+      </concept>
+      <concept>
+        <code value="443651005"/>
+        <display value="Influenza A virus subtype H1N1 vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346524008"/>
+        <display value="Influenza split virion vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="427036009"/>
+        <display value="Influenza virus H5N1 vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="427077008"/>
+        <display value="Influenza virus H5N1 vaccine injection solution 5mL multi-dose vial (product)"/>
+      </concept>
+      <concept>
+        <code value="46233009"/>
+        <display value="Influenza virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="400788004"/>
+        <display value="Influenza virus vaccine triv 45mcg/0.5mL injection solution 0.5mL syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="400564003"/>
+        <display value="Influenza virus vaccine trivalent 45mcg/0.5mL injection solution 5mL vial (product)"/>
+      </concept>
+      <concept>
+        <code value="409269001"/>
+        <display value="Intranasal influenza live virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333697005"/>
+        <display value="Japanese B encephalitis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333698000"/>
+        <display value="Japanese B encephalitis vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="326303007"/>
+        <display value="Lactobacill acidophil vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="442560004"/>
+        <display value="Live adenovirus type 4 vaccine oral dosage form (product)"/>
+      </concept>
+      <concept>
+        <code value="442561000"/>
+        <display value="Live adenovirus type 7 vaccine oral dosage form (product)"/>
+      </concept>
+      <concept>
+        <code value="440075005"/>
+        <display value="Live measles + rubella vaccine injection dose form (product)"/>
+      </concept>
+      <concept>
+        <code value="125690004"/>
+        <display value="Live poliovirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="428688001"/>
+        <display value="Live smallpox vaccine powder 3mL vial + diluent (product)"/>
+      </concept>
+      <concept>
+        <code value="116083002"/>
+        <display value="Lyme disease vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="377089008"/>
+        <display value="Lyme disease vaccine recombi 60mcg/mL injection solution 0.5mL ampule (product)"/>
+      </concept>
+      <concept>
+        <code value="376208003"/>
+        <display value="Lyme disease vaccine recombi 6mcg/mL injection solution 5mL ampule (product)"/>
+      </concept>
+      <concept>
+        <code value="419550004"/>
+        <display value="Measles + mumps + rubella + varicella vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="386012008"/>
+        <display value="Measles vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="400449000"/>
+        <display value="Measles virus vaccine, live, 0.5mL/vial powder for injection (product)"/>
+      </concept>
+      <concept>
+        <code value="61153008"/>
+        <display value="Measles, mumps and rubella vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="347649008"/>
+        <display value="Measles/mumps/rubella vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="419771007"/>
+        <display value="Measles/mumps/rubella/varicella vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="373869007"/>
+        <display value="Melanoma vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="421281005"/>
+        <display value="Meningococcal A+C vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="359068008"/>
+        <display value="Meningococcal C conjugate vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333668007"/>
+        <display value="Meningococcal C conjugate vaccine injection solution prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="333670003"/>
+        <display value="Meningococcal C conjugate vaccine injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="333669004"/>
+        <display value="Meningococcal C conjugate vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="422069000"/>
+        <display value="Meningococcal group C vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="420261000"/>
+        <display value="Meningococcal groups A+C+W135+Y vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="347659009"/>
+        <display value="Meningococcal polysaccharide vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="423531006"/>
+        <display value="Meningococcus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="123686003"/>
+        <display value="Mixed bacterial vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="125696005"/>
+        <display value="Mixed respiratory vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="90043005"/>
+        <display value="Mumps live virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="376997008"/>
+        <display value="Mumps virus vaccine live injection solution 0.5mL vial (product)"/>
+      </concept>
+      <concept>
+        <code value="428601009"/>
+        <display value="Paratyphoid vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="409568008"/>
+        <display value="Pentavalent botulinum toxoid vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="61602008"/>
+        <display value="Pertussis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="11866009"/>
+        <display value="Plague vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="448964007"/>
+        <display value="Pneumococcal 13-valent conjugate vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="125714002"/>
+        <display value="Pneumococcal 7-valent conjugate vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="135643009"/>
+        <display value="Pneumococcal polysaccharide conjugated vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="135642004"/>
+        <display value="Pneumococcal polysaccharide vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333598008"/>
+        <display value="Pneumococcal vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333603000"/>
+        <display value="Poliomyelitis inactivated vaccine injection (product)"/>
+      </concept>
+      <concept>
+        <code value="111164008"/>
+        <display value="Poliovirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="320835005"/>
+        <display value="Pollen allergy preparations (product)"/>
+      </concept>
+      <concept>
+        <code value="70447008"/>
+        <display value="Polyvalent pneumococcal vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="400287005"/>
+        <display value="Polyvalent pneumococcal vaccine injection solution 0.5mL syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="430410002"/>
+        <display value="Product containing Influenza virus vaccine in nasal dose form (medicinal product form)"/>
+      </concept>
+      <concept>
+        <code value="64296005"/>
+        <display value="Product containing Staphylococcus toxoid vaccine (medicinal product)"/>
+      </concept>
+      <concept>
+        <code value="125580002"/>
+        <display value="Product containing antigen of whole cell pertussis and diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)"/>
+      </concept>
+      <concept>
+        <code value="418268006"/>
+        <display value="Product containing attenuated Bacillus Calmette Guerin (medicinal product)"/>
+      </concept>
+      <concept>
+        <code value="68208009"/>
+        <display value="Product containing diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)"/>
+      </concept>
+      <concept>
+        <code value="58098008"/>
+        <display value="Product containing tetanus toxoid adsorbed (medicinal product)"/>
+      </concept>
+      <concept>
+        <code value="105949007"/>
+        <display value="Product containing toxoid (product)"/>
+      </concept>
+      <concept>
+        <code value="427533008"/>
+        <display value="Q fever vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333607004"/>
+        <display value="Rabies inactivated vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="333606008"/>
+        <display value="Rabies vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="125715001"/>
+        <display value="Rabies vaccine, adsorbed (product)"/>
+      </concept>
+      <concept>
+        <code value="3526007"/>
+        <display value="Rabies vaccine, human (product)"/>
+      </concept>
+      <concept>
+        <code value="425638005"/>
+        <display value="Recombinant hepatitis B virus surface antigen 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms injection solution 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="13178004"/>
+        <display value="Rickettsial vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="45355008"/>
+        <display value="Rocky Mountain spotted fever vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="766567004"/>
+        <display value="Rotavirus live vaccine powder for conventional release oral suspension 1mL (product)"/>
+      </concept>
+      <concept>
+        <code value="116077000"/>
+        <display value="Rotavirus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="347653005"/>
+        <display value="Rubella live vaccine powder and solvent for injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="386013003"/>
+        <display value="Rubella vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="358640003"/>
+        <display value="Silver birch allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="358641004"/>
+        <display value="Silver birch allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="33234009"/>
+        <display value="Smallpox vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333620001"/>
+        <display value="Smallpox vaccine injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="81970008"/>
+        <display value="Swine influenza virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="375054005"/>
+        <display value="Tetanus toxoid, adsorbed 20u/mL 0.5mL injection solution ampule (product)"/>
+      </concept>
+      <concept>
+        <code value="333621002"/>
+        <display value="Tetanus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333699008"/>
+        <display value="Tick-borne encephalitis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333700009"/>
+        <display value="Tick-borne encephalitis vaccine injection solution prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="346734001"/>
+        <display value="Timothy grass allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346754000"/>
+        <display value="Timothy grass allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346735000"/>
+        <display value="Treemix allergy initial kit (product)"/>
+      </concept>
+      <concept>
+        <code value="346755004"/>
+        <display value="Treemix allergy maintenance kit (product)"/>
+      </concept>
+      <concept>
+        <code value="420538001"/>
+        <display value="Tuberculosis vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="412324003"/>
+        <display value="Typhoid VI polysaccharide vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346696005"/>
+        <display value="Typhoid live oral vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346639000"/>
+        <display value="Typhoid polysaccharide vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="348070000"/>
+        <display value="Typhoid polysaccharide vaccine 25micrograms injection suspension 0.5mL prefilled syringe (product)"/>
+      </concept>
+      <concept>
+        <code value="89428009"/>
+        <display value="Typhoid vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="346697001"/>
+        <display value="Typhoid whole cell vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="52628005"/>
+        <display value="Typhoid-paratyphoid vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="37146000"/>
+        <display value="Typhus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="10332002"/>
+        <display value="Vaccine - bacterin - toxoid (product)"/>
+      </concept>
+      <concept>
+        <code value="669007"/>
+        <display value="Vaccinia virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="412530002"/>
+        <display value="Varicella virus live vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="108729007"/>
+        <display value="Varicella virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="407746005"/>
+        <display value="Varicella-zoster live attenuated vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="407933006"/>
+        <display value="Varicella-zoster live attenuated vaccine injection (pdr for recon)+solvent (product)"/>
+      </concept>
+      <concept>
+        <code value="407737004"/>
+        <display value="Varicella-zoster vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="370459009"/>
+        <display value="West Nile virus vaccine (product)"/>
+      </concept>
+      <concept>
+        <code value="333652001"/>
+        <display value="Yellow fever live vaccine injection solution vial (product)"/>
+      </concept>
+      <concept>
+        <code value="56844000"/>
+        <display value="Yellow fever vaccine (product)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
