@@ -6,8 +6,8 @@ This is a sample Implementation Guide
 ### Publication
 This ImplementationGuide is published in the following locations:
 
-Continuous Build: __http://build.fhir.org/ig/...  
-Canonical / permanent URL: __http://costateixeira/devdays-covid19-vaccine
+Continuous Build: __http://build.fhir.org/ig/costateixeira/devdays-covid19-vaccine/branches/main/index.html__  
+Canonical / permanent URL: 
 <br> </br>
 
 ### Issues
