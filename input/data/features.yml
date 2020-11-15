@@ -2,7 +2,7 @@
 feedback:
   active: true
   formUrl: https://docs.google.com/forms/d/e/1FAIpQLSfX-t0XU78zf5iRAQMElYEeH6IauD9aOx8FZDFNislCp-bZDw/viewform?usp=pp_url
-  dashboard: https://github.com/orgs/hl7-be/projects/4
+  dashboard: https://github.com/costateixeira/devdays-covid19-vaccine/projects/1
   parameters:
   - name: "'entry.1353807103'"
     value: encodeURIComponent($(document).attr('title'))
