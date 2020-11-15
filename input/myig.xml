@@ -57,22 +57,38 @@
 <reference value="MyLogicalModel/AS"/>
 </reference>
 </resource> -->
-<!--    <resource>
+
+
+    <resource>
       <reference>
-        <reference value="Library/example"/>
+        <reference value="SearchParameter/searchparameter-administeredproduct"/>
       </reference>
-      <name value="Simple library example"/>
-      <description value="A simple example showing how library is pre-loaded"/>
-    </resource> -->
+      <name value="SearchParameter - AdministeredProduct"/>
+      <description value="SearchParameter to support searching vaccines by product details"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Immunization/immunizationprofile-example"/>
+      </reference>
+      <name value="Immunization - Example"/>
+      <description value="Example of immunization administration"/>
+    </resource> 
+    <resource>
+      <reference>
+        <reference value="Patient/mary-roe"/>
+      </reference>
+      <name value="Patient example"/>
+      <description value="Example Patient - Mary Roe"/>
+    </resource> 
 <!--
-      <resource>
+    <resource>
       <reference>
         <reference value="ExampleScenario/scenario-allergy"/>
       </reference>
       <name value="Example Scenario - Allergy / Intolerance"/>
       <description value="Overriding description because we can"/>
     </resource>
--->    
+-->
     <resource>
       <reference>
         <reference value="StructureDefinition/model-1"/>
@@ -88,6 +104,11 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="MyIG Home Page"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="overview.html"/>
+        <title value="Overview of this ImplementationGuide"/>
         <generation value="html"/>
       </page>
       <page>
