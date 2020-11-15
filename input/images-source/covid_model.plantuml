@@ -1,0 +1,43 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+
+package "COVID-19 Vaccine" as IG {
+
+package "Functional Module" as Functional {
+  class "**Use Case**" as UCase {
+  }
+  class "**Logical Model**" as LogicalModel {
+  }
+}
+
+package "Technical Specifications" as Technical {
+  class "**Immunization**\n**Profile**" as P_IMM {
+  }
+  class "**AdverseEvent**\n**Profile**" as P_ADV {
+  }
+  class "**Product**\n**Extension**" as E_PRD {
+  }
+  class "**Procedure Type**\n**Extension**" as E_PRT {
+  }
+  class "**Event Grade**\n**Extension**" as E_ADG {
+  }
+  class "**SearchParameter**" as SearchParameter {
+  }
+}
+
+UCase - LogicalModel
+LogicalModel -down- P_IMM
+P_ADV -left- P_IMM
+P_IMM -down- E_PRD
+P_IMM -down- E_PRT
+P_ADV -down- E_ADG
+E_PRD -up- SearchParameter
+  
+
+}
+
+@enduml
+
