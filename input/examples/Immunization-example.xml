@@ -7,7 +7,7 @@
   </meta>
   <contained> 
       <Medication> 
-          <id value="some_vaccine_dose"/> 
+          <id value="ae37fcaf-a55d-4a87-8a08-ed137092b6f8"/> 
           <identifier>
               <system value="https://www.somewhere.zz/drugtracking/covid-vaccine-serial-numbers"/>
               <value value="c448357c-cf6b-4a55-95c2-1618580bc391"/>
