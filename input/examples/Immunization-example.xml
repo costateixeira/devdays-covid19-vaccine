@@ -52,7 +52,7 @@
     <reference value="Patient/example"/>
     <display value="Peter James Chalmers"/>
   </patient>
-  <occurrenceDateTime value="2013-01-10"/>
+  <occurrenceDateTime value="2020-11-17"/>
   <primarySource value="true"/>
   <location>
     <reference value="Location/example"/>
