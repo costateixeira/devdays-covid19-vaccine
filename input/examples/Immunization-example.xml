@@ -3,7 +3,7 @@
 <Immunization xmlns="http://hl7.org/fhir">
   <id value="immunizationprofile-example"/>
   <meta>
-    <profile value="http://ardon.nl/fhir/StructureDefinition/ImmunizationProfile"/>
+    <profile value="https://fhir.devdays.com/R4/StructureDefinition/ImmunizationProfile"/>
   </meta>
   <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure">
     <valueCodeableConcept>
@@ -14,7 +14,7 @@
       </coding>
     </valueCodeableConcept>
   </extension>
-  <extension url="http://ardon.nl/fhir/StructureDefinition/Extension-AdministeredProduct">
+  <extension url="https://fhir.devdays.com/R4/StructureDefinition/Extension-AdministeredProduct">
     <valueReference>
       <reference value="Medication/example"/>
       <display value="Specific Vaccination Product"/>
