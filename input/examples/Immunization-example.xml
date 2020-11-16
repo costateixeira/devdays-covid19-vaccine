@@ -49,10 +49,10 @@
     </coding>
   </vaccineCode>
   <patient>
-    <reference value="Patient/example"/>
-    <display value="Peter James Chalmers"/>
+    <reference value="Patient/mary-roe"/>
+    <display value="MaryRoe"/>
   </patient>
-  <occurrenceDateTime value="2020-11-17"/>
+  <occurrenceDateTime value="2020-10-29"/>
   <primarySource value="true"/>
   <location>
     <reference value="Location/example"/>
