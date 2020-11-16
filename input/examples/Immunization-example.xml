@@ -5,18 +5,33 @@
   <meta>
     <profile value="https://fhir.devdays.com/R4/StructureDefinition/ImmunizationProfile"/>
   </meta>
+  <contained> 
+      <Medication> 
+          <id value="some_vaccine_dose"/> 
+          <identifier>
+              <system value="https://www.somewhere.zz/drugtracking/covid-vaccine-serial-numbers"/>
+              <value value="c448357c-cf6b-4a55-95c2-1618580bc391"/>
+          </identifier>
+          <code> 
+              <coding> 
+                  <system value="http://snomed.info/sct"/> 
+                  <code value="840534001"/> 
+              </coding> 
+          </code> 
+      </Medication> 
+  </contained> 
   <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure">
     <valueCodeableConcept>
       <coding>
         <system value="http://snomed.info/sct"/>
-        <code value="33879002"/>
-        <display value="Coronavirus vaccination"/>
+        <code value="840534001"/>
+        <display value="Severe acute respiratory syndrome coronavirus 2 vaccination"/>
       </coding>
     </valueCodeableConcept>
   </extension>
   <extension url="https://fhir.devdays.com/R4/StructureDefinition/Extension-AdministeredProduct">
     <valueReference>
-      <reference value="Medication/example"/>
+      <reference value="#ae37fcaf-a55d-4a87-8a08-ed137092b6f8"/>
       <display value="Specific Vaccination Product"/>
     </valueReference>
   </extension>
@@ -25,15 +40,14 @@
   <vaccineCode>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <code value="836369007"/>
-      <display value="Virus antigen-containing vaccine product"/>
+      <code value="840534001"/>
+      <display value="Severe acute respiratory syndrome coronavirus 2 vaccination"/>
     </coding>
     <coding>
       <system value="http://www.whocc.no/atc"/>
       <code value="J07B"/>
-      <display value="VIRALE VACCINS"/>
+      <display value="VIRAL VACCINES"/>
     </coding>
-    <text value="Fluvax (Influenza)"/>
   </vaccineCode>
   <patient>
     <reference value="Patient/example"/>
@@ -72,20 +86,12 @@
     </actor>
   </practitioner>
   <practitioner>
-    <role>
-      <coding>
-        <system value="http://hl7.org/fhir/v2/0443"/>
-        <code value="AP"/>
-      </coding>
-    </role>
     <actor>
-      <reference value="PractitionerRole/example"/>
+      <identifier>
+        <system
+                value="https://www.ehealth.zz/practitioners"/>
+        <value value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
+      </identifier>
     </actor>
   </practitioner>
-  <reaction>
-    <date value="2013-01-10"/>
-    <detail>
-      <reference value="Observation/example"/>
-    </detail>
-  </reaction>
 </Immunization>
