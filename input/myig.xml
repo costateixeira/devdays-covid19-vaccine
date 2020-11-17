@@ -102,7 +102,12 @@
       </page>
       <page>
         <nameUrl value="overview.html"/>
-        <title value="Overview of this ImplementationGuide"/>
+        <title value="Overview of this Implementation Guide"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases covered by this Implementation Guide"/>
         <generation value="html"/>
       </page>
       <page>

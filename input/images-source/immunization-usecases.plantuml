@@ -1,0 +1,14 @@
+@startuml
+'skinparam actorStyle awesome
+left to right direction
+actor "Nurse" as n
+
+rectangle "FHIR Repository" {
+  usecase "Consult Immunizations" as UC1
+  usecase "Register Immunization" as UC2
+  usecase "Register Adverse Event" as UC3
+}
+n --> UC1
+n --> UC2
+n --> UC3
+@enduml
