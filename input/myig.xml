@@ -47,6 +47,38 @@
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
 
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/immunization-model"/>
+      </reference>
+      <name value="Logical Data Model for Immunization"/>
+      <description value="Logical Data Model for Immunization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/immunization-profile"/>
+      </reference>
+      <name value="COVID-19 Immunization Profile"/>
+      <description value="A profile on the Immunization resource"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/searchparameter-administeredproduct"/>
+      </reference>
+      <name value="SearchParameter - AdministeredProduct"/>
+      <description value="SearchParameter to support searching vaccines by product details"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Immunization/immunizationprofile-example"/>
+      </reference>
+      <name value="Immunization - Example"/>
+      <description value="Example of immunization administration"/>
+      <exampleCanonical value="https://fhir.devdays.com/R4/StructureDefinition/ImmunizationProfile" />
+    </resource> 
+
+
+
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
