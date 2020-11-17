@@ -1,7 +1,6 @@
 Alias: MDR = http://terminology.hl7.org/CodeSystem/MDRAE
 Alias: SCT = http://snomed.info/sct
 Alias: AES = http://terminology.hl7.org/CodeSystem/adverse-event-seriousness
-Alias: AEC = http://terminology.hl7.org/CodeSystem/adverse-event-category
 Alias: AEO = http://terminology.hl7.org/CodeSystem/adverse-event-outcome
 Alias: AEA = http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess
 /*
@@ -23,8 +22,8 @@ Profile changes on AdverseEvent:
 
 Profile: ImmunizationAdverseEvent
 Parent: AdverseEvent
-Title: "Immunization Adverse Event"
-Id: immunization-adverse-AdverseEvent
+Title: "Immunization Adverse Event Profile"
+Id: immunization-adverse-event
 Description: "Profile of adverse event, specialized for immunizations"
 * subject only Reference(Patient)
 * actuality = #actual
@@ -35,15 +34,15 @@ Description: "Profile of adverse event, specialized for immunizations"
 * event from MedDRA_VS (required)
 * event.text 1..1
 * severity 0..0
-* extension contains AdverseEventGrade named grade 0..1 
+* extension contains AdverseEventGrade named grade 0..1
 * seriousness from AdverseEventSeriousness_VS
 
 Extension: AdverseEventGrade
 Id: adverse-event-grade
-Title: "Adverse Event Grade"
+Title: "Adverse Event Grade Extension"
 Description: "The grade associated with the severity of an adverse event, using CTCAE criteria. See https://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm"
 * value[x] only CodeableConcept
-* valueCodeableConcept from AdverseEventGrade_VS
+* value[x] from AdverseEventGrade_VS
 
 ValueSet: MedDRA_VS
 Id: meddra-value-set
@@ -64,7 +63,7 @@ Description: "Five grades associated with the severity of an adverse event."
 
 ValueSet: AdverseEventSeriousness_VS
 Id: adverse-event-seriousness-value-set
-Title: "Adverse Event Seriousness"
+Title: "Adverse Event Seriousness Value Set"
 Description: "An adverse event is considered serious if it results in any of the following outcomes: (1) Death, (2) Life-threatening experience 3) Inpatient hospitalization or prolongation of existing hospitalization (for > 24 hours) (4) Persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, (5) Congenital anomaly/birth defect, or (6) Important Medical Event (IME) that may jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the outcomes listed in this definition. Reference: https://crawb.crab.org/txwb/CRA_MANUAL/Vol1/chapter%2013_Serious%20Adverse%20Events.pdf"
 * AES#non-serious "Non-serious"
 * AES#serious "Serious"
