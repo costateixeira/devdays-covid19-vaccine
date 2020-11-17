@@ -1,5 +1,6 @@
 @startuml
 'skinparam actorStyle awesome
+!pragma graphviz_dot jdot
 left to right direction
 actor "Nurse" as n
 

@@ -1,4 +1,5 @@
 @startuml
+!pragma graphviz_dot jdot
 skinparam linetype polyline
 hide circle
 hide stereotype
