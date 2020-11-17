@@ -15,11 +15,14 @@
 <a name="Diagrams"> </a>
 	<h4>Diagrams</h4>
 <p>This diagram shows the artifacts published in this Implementation Guide:</p>
-<p></p>
- {% include covid_model.svg %}
+<p>
+<img src="covid_model.png"> </img>
+</p>
+<br clear="all" > </br>
+
 <p> </p>
-<p>This diagram is automatically generated.</p>
-<a href="https://github.com/costateixeira/devdays-covid19-vaccine/blob/main/input/images-source/covid_model.plantuml" target="_blank">Here's the source</a>
+<p>This diagram is generated from <a href="https://github.com/costateixeira/devdays-covid19-vaccine/blob/main/input/images-source/covid_model.plantuml" target="_blank">this source</a>.</p>
+
 <p> </p>
 <p> </p>
 
@@ -31,13 +34,6 @@
 <p> </p>
 <p> </p>
 
-<a name="Bundles"> </a>
-	<h4>Content Bundles</h4>
-<p>This diagram is automatically generated. <a href="https://github.com/costateixeira/devdays-covid19-vaccine/blob/main/input/images-source/covid_model.plantuml" target="_blank">Here's the source.</a>
-</p>
-
-<p> </p>
-<p> </p>
 
 
 
