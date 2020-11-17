@@ -6,26 +6,18 @@
 	<li>
 		<a href="toc.html">Table of Contents</a>
 	</li>
+<!--
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Overview<b class="caret"></b>
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
 		</a>
-		<ul class="dropdown-menu">
-			<li>
-				<a href="overview.html">COVID-19 immunization overview</a>
-			</li>
-		</ul>
+
 	</li>
 	<li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
 		</a>
-		<ul class="dropdown-menu">
-			<li>
-				<a href="usecases.html">Use Cases</a>
-			</li>
-		</ul>
 
 	</li>
-
+-->
 	<li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
 		</a>
@@ -41,4 +33,4 @@
 			<li><a href="downloads.html">Downloads</a></li>
 		</ul>
 	</li>
-</ul>
+</ul>      
