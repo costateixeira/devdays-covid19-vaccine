@@ -1,15 +1,18 @@
 @startuml
 'skinparam actorStyle awesome
-!pragma graphviz_dot jdot
-left to right direction
+' left to right direction
 actor "Nurse" as n
-
-rectangle "FHIR Repository" {
-  usecase "Consult Immunizations" as UC1
-  usecase "Register Immunization" as UC2
-  usecase "Register Adverse Event" as UC3
-}
-n --> UC1
-n --> UC2
-n --> UC3
+participant "FHIR Repository" as fhir
+group "Get Immunizations"
+n -> fhir: "Consult Immunizations"
+fhir -> n: "Bundle"
+end
+...
+group "Immunization report"
+n -> fhir: "Register Immunization"
+end
+...
+group "Adverse Event Reporting"
+n -> fhir: "Register Adverse Event"
+end
 @enduml
