@@ -2,7 +2,7 @@ Instance: immunization-adverse-event-example
 InstanceOf: ImmunizationAdverseEvent
 Title: "Immunization Adverse Event Example"
 Description: "Anaphylactic reaction to COVID-19 vaccination"
-* subject = Reference(MaryRoe)
+* subject = Reference(mary-roe)
 * category = SCT#264519003 // Drug reaction (qualifier value)
 * event = MDR#10002198 "Anaphylatcic reaction"
 * event.text = "Anaphylaxis self-reported, self-treated by Epi pen."
@@ -11,15 +11,14 @@ Description: "Anaphylactic reaction to COVID-19 vaccination"
 * date = "2020-10-31"
 * recordedDate = "2020-11-02"
 * outcome = AEO#resolved
-* recorder = Reference(MaryRoe)  // self-reported
-* suspectEntity.instance = Reference(Immunization/example)
+* recorder = Reference(mary-roe)  // self-reported
+* suspectEntity.instance = Reference(Immunization/immunizationprofile-example)
 * suspectEntity.causality.assessment = AEA#probably-likely "Probably/Likely"
 
 
-Instance: MaryRoe
+Instance: mary-roe
 InstanceOf: Patient
-Description: "Example Patient"
-* id = "mary-roe"
+Description: "Patient Example"
 * identifier.use = #usual
 * identifier.type = http://terminology.hl7.org/CodeSystem/v2-0203#MR "Medical Record Number"
 * identifier.system = "http://hospital.example.org"

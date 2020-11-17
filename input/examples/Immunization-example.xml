@@ -36,7 +36,6 @@
     </valueReference>
   </extension>
   <status value="completed"/>
-  <notGiven value="false"/>
   <vaccineCode>
     <coding>
       <system value="http://snomed.info/sct"/>
@@ -50,21 +49,23 @@
     </coding>
   </vaccineCode>
   <patient>
-    <reference value="Patient/example"/>
+    <reference value="Patient/mary-roe"/>
+    <display value="MaryRoe"/>
   </patient>
-  <date value="2013-01-10"/>
+  <occurrenceDateTime value="2020-10-29"/>
   <primarySource value="true"/>
   <location>
     <reference value="Location/example"/>
+    <display value="Burgers UMC, South Wing, second floor"/>
   </location>
   <manufacturer>
     <reference value="Organization/example"/>
   </manufacturer>
   <lotNumber value="AAJN11K"/>
-  <expirationDate value="2015-02-15"/>
+  <expirationDate value="2021-02-15"/>
   <route>
     <coding>
-      <system value="http://hl7.org/fhir/v3/RouteOfAdministration"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"/>
       <code value="IM"/>
       <display value="Injection, intramuscular"/>
     </coding>
@@ -74,18 +75,24 @@
     <system value="http://unitsofmeasure.org"/>
     <code value="mg"/>
   </doseQuantity>
-  <practitioner>
-    <role>
+  <performer>
+    <function>
       <coding>
         <system value="http://hl7.org/fhir/v2/0443"/>
         <code value="OP"/>
       </coding>
-    </role>
+    </function>
     <actor>
       <reference value="PractitionerRole/example"/>
     </actor>
-  </practitioner>
-  <practitioner>
+  </performer>
+  <performer>
+    <function>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0443"/>
+        <code value="AP"/>
+      </coding>
+    </function>
     <actor>
       <identifier>
         <system
@@ -93,5 +100,5 @@
         <value value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
       </identifier>
     </actor>
-  </practitioner>
+  </performer>
 </Immunization>

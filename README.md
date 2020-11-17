@@ -1,6 +1,6 @@
 COVID-19 Vaccine example IG
 ---
-This is an example Implementation Guide for presenting some features at DevDays 2020 November
+This is an example Implementation Guide for presenting some features at DevDays 2020 November.
 <br> </br>
 ###
 ### Publication
