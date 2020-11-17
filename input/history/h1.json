@@ -1,0 +1,115 @@
+{
+	"resourceType": "Bundle",
+	"id": "h1",
+	"type": "collection",
+	"entry": [
+		{
+            "fullUrl": "https://example.com/base/Provenance/h1-1",
+			"resource": {
+				"resourceType": "Provenance",
+				"id": "h1-1",
+				"target": [
+					{
+						"reference": "StructureDefinition/immunization-model"
+					}
+				],
+				"occurredDateTime": "2020-11-17",
+				"reason": [
+					{
+						"text": "Add \"AdministeredProduct\" extension  after many many discussions about product codes and medication management"
+					}
+				],
+				"activity": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+							"code": "UPDATE"
+						}
+					]
+				},
+				"agent": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+									"code": "author"
+								}
+							]
+						},
+						"actor": {
+							"display": "José Costa Teixeira"
+						}
+					},
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+									"code": "verifier"
+								}
+							]
+						},
+						"actor": {
+							"display": "HL7 Belgium"
+						}
+					}
+				]
+			}
+		},
+		{
+            "fullUrl": "https://example.com/base/Provenance/h1-2",
+			"resource": {
+				"resourceType": "Provenance",
+				"id": "h1-2",
+				"target": [
+					{
+						"reference": "StructureDefinition/immunization-profile"
+					}
+				],
+				"occurredDateTime": "2020-11-17",
+				"reason": [
+					{
+						"text": "Add \"AdministeredProduct\" extension  after many many discussions about product codes and medication management"
+					}
+				],
+				"activity": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+							"code": "UPDATE"
+						}
+					]
+				},
+				"agent": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+									"code": "author"
+								}
+							]
+						},
+						"actor": {
+							"display": "José Costa Teixeira"
+						}
+					},
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+									"code": "verifier"
+								}
+							]
+						},
+						"actor": {
+							"display": "HL7 Belgium"
+						}
+					}
+				]
+			}
+		}
+	]
+}
