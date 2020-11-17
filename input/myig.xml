@@ -95,6 +95,11 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases covered by this Implementation Guide"/>
+        <generation value="html"/>
+      </page>
+      <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>

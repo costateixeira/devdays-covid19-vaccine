@@ -1,0 +1,16 @@
+@startuml
+actor "Nurse" as n
+participant "FHIR Repository" as fhir
+group "Get Immunizations"
+n -> fhir: "Consult Immunizations"
+fhir -> n: "Bundle"
+end
+...
+group "Immunization report"
+n -> fhir: "Register Immunization"
+end
+...
+group "Adverse Event Reporting"
+n -> fhir: "Register Adverse Event"
+end
+@enduml
