@@ -1,0 +1,47 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+  <a name="scope">  </a>
+	<p>
+    This ImplementationGuide presents a set of artifacts to demonstrate some features of the publication process and tools 
+   </p>
+	<blockquote class="stu-note">
+	<strong>This documentation and set of artefacts are just for demonstration purposes and are not for real implementation.</strong>
+	</blockquote>
+	<p>(This is an STU note, by the way)</p>
+
+<a name="Features"> </a>
+	<h3>Features</h3>
+<p>This publication contains several features:</p>
+
+<a name="Diagrams"> </a>
+	<h4>Diagrams</h4>
+<p>This diagram shows the artifacts published in this Implementation Guide:</p>
+<p>
+<img src="covid_model.png"> </img>
+</p>
+<br clear="all" > </br>
+
+<p> </p>
+<p>This diagram is generated from <a href="https://github.com/costateixeira/devdays-covid19-vaccine/blob/main/input/images-source/covid_model.plantuml" target="_blank">this source</a>.</p>
+
+<p> </p>
+<p> </p>
+
+<a name="Feedback"> </a>
+	<h4>Feedback</h4>
+<p>The feedback button you can see on the right opens a feedback form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX-t0XU78zf5iRAQMElYEeH6IauD9aOx8FZDFNislCp-bZDw/viewform?usp=pp_url&amp;entry.1353807103=PRE-Populated%20Form&amp;entry.247644557=Feedback%20topic" target="_blank">like this one</a> </p>
+<p>... that adds issues to the project's <a href="https://github.com/costateixeira/devdays-covid19-vaccine/projects/1" target="_blank">github Kanban board</a></p>
+
+<p> </p>
+<p> </p>
+
+
+
+
+<a name="disclaimer"> </a>
+	<h3>Disclaimer</h3>
+	<p>
+    The specification herewith documented is a demo working specification, and may not be used for any implementation purposes. 
+    This draft is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
+    No liability can be inferred from the use or misuse of this specification, or its consequences.
+  </p>
+</div>
