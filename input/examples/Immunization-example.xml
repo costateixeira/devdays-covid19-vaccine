@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunizationprofile-example"/>
+  <meta>
+    <profile value="https://fhir.devdays.com/R4/StructureDefinition/ImmunizationProfile"/>
+  </meta>
+  <contained> 
+      <Medication> 
+          <id value="ae37fcaf-a55d-4a87-8a08-ed137092b6f8"/> 
+          <identifier>
+              <system value="https://www.somewhere.zz/drugtracking/covid-vaccine-serial-numbers"/>
+              <value value="c448357c-cf6b-4a55-95c2-1618580bc391"/>
+          </identifier>
+          <code> 
+              <coding> 
+                  <system value="http://snomed.info/sct"/> 
+                  <code value="840534001"/> 
+              </coding> 
+          </code> 
+      </Medication> 
+  </contained> 
+  <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-VaccinationProcedure">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="840534001"/>
+        <display value="Severe acute respiratory syndrome coronavirus 2 vaccination"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://fhir.devdays.com/R4/StructureDefinition/Extension-AdministeredProduct">
+    <valueReference>
+      <reference value="#ae37fcaf-a55d-4a87-8a08-ed137092b6f8"/>
+      <display value="Specific Vaccination Product"/>
+    </valueReference>
+  </extension>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="840534001"/>
+      <display value="Severe acute respiratory syndrome coronavirus 2 vaccination"/>
+    </coding>
+    <coding>
+      <system value="http://www.whocc.no/atc"/>
+      <code value="J07B"/>
+      <display value="VIRAL VACCINES"/>
+    </coding>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/mary-roe"/>
+    <display value="MaryRoe"/>
+  </patient>
+  <occurrenceDateTime value="2020-10-29"/>
+  <primarySource value="true"/>
+  <location>
+    <reference value="Location/example"/>
+    <display value="Burgers UMC, South Wing, second floor"/>
+  </location>
+  <manufacturer>
+    <reference value="Organization/example"/>
+  </manufacturer>
+  <lotNumber value="AAJN11K"/>
+  <expirationDate value="2021-02-15"/>
+  <route>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"/>
+      <code value="IM"/>
+      <display value="Injection, intramuscular"/>
+    </coding>
+  </route>
+  <doseQuantity>
+    <value value="5"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg"/>
+  </doseQuantity>
+  <performer>
+    <function>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0443"/>
+        <code value="OP"/>
+      </coding>
+    </function>
+    <actor>
+      <reference value="PractitionerRole/example"/>
+    </actor>
+  </performer>
+  <performer>
+    <function>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0443"/>
+        <code value="AP"/>
+      </coding>
+    </function>
+    <actor>
+      <identifier>
+        <system
+                value="https://www.ehealth.zz/practitioners"/>
+        <value value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
+      </identifier>
+    </actor>
+  </performer>
+</Immunization>

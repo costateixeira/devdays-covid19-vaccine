@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="searchparameter-administeredproduct" />
+  <meta>
+    <versionId value="4" />
+    <lastUpdated value="2020-11-15T20:48:14.892+00:00" />
+  </meta>
+  <url value="https://fhir.devdays.com/R4/SearchParameter/AdministeredProduct" />
+  <name value="SearchParameterAdministeredProduct" />
+  <status value="draft" />
+  <date value="2020-11-15T20:48:14.6108237Z" />
+  <description value="To search (and _include) Medication resources that are referenced from the AdministeredProduct extension in Immunization." />
+  <purpose value="To allow to search on Medication resource, referenced from a Immunization.extension.administeredProduct extension. Main purpose is to use this search parameter for including related Medication resources in the result for a search on Immunization." />
+  <code value="administered-product" />
+  <base value="Immunization" />
+  <type value="reference" />
+  <expression value="Immunization.extension('https://fhir.devdays.com/R4/StructureDefinition/Extension-AdministeredProduct')" />
+</SearchParameter>
