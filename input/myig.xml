@@ -66,6 +66,8 @@
       </reference>
       <name value="Immunization - Example"/>
       <description value="Example of immunization administration"/>
+      <exampleCanonical value="https://fhir.devdays.com/R4/StructureDefinition/ImmunizationProfile" />
+
     </resource> 
     <resource>
       <reference>
@@ -85,11 +87,17 @@
 -->
     <resource>
       <reference>
-        <reference value="StructureDefinition/model-1"/>
+        <reference value="StructureDefinition/immunization-model"/>
       </reference>
-      <name value="Example Logical Model"/>
-      <description value="Description of the logical model"/>
+      <name value="Logical Data Model for Immunization"/>
+      <description value="Logical Data Model for Immunization"/>
     </resource>    
+    <resource>
+      <reference>
+        <reference value="Bundle/h1"/>
+      </reference>
+      <name value="History"/>
+    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>

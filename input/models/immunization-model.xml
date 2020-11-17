@@ -1,0 +1,234 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <!--trial-->
+  <id value="immunization-model" />
+  <url value="https://www.example.org/fhir/StructureDefinition/immunization-model" />
+  <version value="0.1.0" />
+  <name value="Model1" />
+  <status value="draft" />
+  <description value="This is the logical model of the patient&#39;s vaccination entries in an immunization or vaccination record. The patient vaccination record of several entries as modeled here."/>
+  <fhirVersion value="4.0.1" />
+  <kind value="logical" />
+  <abstract value="false" />
+  <type value="Model-Immunization" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element" />
+  <derivation value="specialization" />
+
+  <differential>
+    <element id="Model-Immunization">
+      <path value="Model-Immunization"/>
+      <short value="A record of an immunization or vaccination"/>
+      <min value="0"/>
+      <max value="*"/>
+    </element>
+    <element id="Model-Immunization.identifier">
+      <path value="Model-Immunization.identifier"/>
+      <short value="The business identifier(s) for the vaccination entry"/>
+      <definition value="The business identifier(s) for the vaccination entry - This is an optional attribute, used for example to track an entry throughout its lifecycle, or across vaults."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.status">
+      <path value="Model-Immunization.status"/>
+      <short value="The status of this vaccination record entry"/>
+      <definition value="The status of the vaccination record entry - whether it is active, entered in error, etc."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.statusReason">
+      <path value="Model-Immunization.statusReason"/>
+      <short value="The reason for the status e.g. &#39;not completed because...&#39;"/>
+      <definition value="Supporting reason for status information."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.patient">
+      <path value="Model-Immunization.patient"/>
+      <short value="The patient that received immunization."/>
+      <definition value="The patient that has received the immunization."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.vaccineCode">
+      <path value="Model-Immunization.vaccineCode"/>
+      <short value="The vaccine code, typically identified by the diseas(s) it covers. For example MMR, HPV, Tetanus, DTPa"/>
+      <definition value="The vaccine code - a type of vaccine, typically identified by the disease(s) it covers. For example MMR, HPV, Tetanus, DTPa. This should be a coded value."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.vaccinationDate[x]">
+      <path value="Model-Immunization.vaccinationDate[x]"/>
+      <short value="The date and time when the vaccination has been administered"/>
+      <definition value="The date and/or time when the immunization administration has been administered or presumed to be administered"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.vaccinationRequest">
+      <path value="Model-Immunization.vaccinationRequest"/>
+      <short value="The patient-specific order or recommendation for the vaccination"/>
+      <definition value="The patient-specific order or recommendation for the vaccination, for example a prescription or a request for vaccination for a patient by a physician, for example for optional vaccines."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.protocol">
+      <path value="Model-Immunization.protocol"/>
+      <short value="The vaccination plan or protocol (not patient-specific) that this vaccination is fulfilling"/>
+      <definition value="The vaccination plan or protocol (not patient-specific) that this vaccination is fulfilling. For example &#39;Basisvaccinatieschema&#39;"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.type">
+      <path value="Model-Immunization.type"/>
+      <short value="The type of vaccination action - for example first dose or reinforcement."/>
+      <definition value="The type of vaccination action - for example first dose or reinforcement."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.sequenceNumber">
+      <path value="Model-Immunization.sequenceNumber"/>
+      <short value="The sequence number of an immunization - whether it is the first dose, or second dose..."/>
+      <definition value="The sequence number of an immunization when part of a protocol - if it is the first dose, or second dose..."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.reporter">
+      <path value="Model-Immunization.reporter"/>
+      <short value="The professional that recorded the administration of the vaccine"/>
+      <definition value="The professional that recorded the administration of the vaccine."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.recorded">
+      <path value="Model-Immunization.recorded"/>
+      <short value="The date and time when the administration of the vaccine was recorded"/>
+      <definition value="The date and time when the administration of the vaccine was recorded - typically used when the vaccine event is recorded a posteriori."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.performer">
+      <path value="Model-Immunization.performer"/>
+      <short value="The professional that administered the medication"/>
+      <definition value="The professional that administered the medication. Use code &quot;unknown&quot; if not known."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.route">
+      <path value="Model-Immunization.route"/>
+      <short value="The route of administration."/>
+      <definition value="The route of administration for the vaccine. This can be free text (not desired) or a code"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.administeredProduct">
+      <path value="Model-Immunization.administeredProduct"/>
+      <short value="The details of the product that was administered."/>
+      <definition value="The details of the product that was administered"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.administeredProduct.product">
+      <path value="Model-Immunization.administeredProduct.product"/>
+      <short value="The actual product that was administered. This should be a produc code or a reference to an actual Medication resource"/>
+      <definition value="The actual product that was administered. This can be just text (not desired), or a code (e.g. 1696392 = Neisvac C Dos 0,5ml) or a reference to an actual Medication product (e.g. http://server/Medication/1696392)"/>
+      <comment value="In the case where the product is not known, use code &quot;unknown&quot;"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.administeredProduct.lotNumber">
+      <path value="Model-Immunization.administeredProduct.lotNumber"/>
+      <short value="The lot number"/>
+      <definition value="The lot number"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.administeredProduct.expirationDate">
+      <path value="Model-Immunization.administeredProduct.expirationDate"/>
+      <short value="The expiration date of the product."/>
+      <definition value="The expiration date of the product."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.location">
+      <path value="Model-Immunization.location"/>
+      <short value="The location where the immunization is performed."/>
+      <definition value="The location where the immunization administration was performed. This can be a text (e.g. &#39;at the physician&#39;s office&#39; or a code e.g. &#39;00078&#39; meaning &#39;patient&#39;s home&#39; or a resource (Location) if one exists e.g. &#39;Location/kind-en-gezin-092375&#39; which could be defining &#39;Kind en Gezin Gent Koepoortkaai&#39; "/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+      </type>
+    </element>
+    <element id="Model-Immunization.note">
+      <path value="Model-Immunization.note"/>
+      <short value="Additional notes for the vaccination."/>
+      <definition value="Additional notes for the vaccination"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Attachment"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/Attachment"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
