@@ -3,16 +3,16 @@
 ' left to right direction
 actor "Nurse" as n
 participant "FHIR Repository" as fhir
-group "Get Immunizations"
-n -> fhir: "Consult Immunizations"
-fhir -> n: "Bundle"
+group Get Immunizations
+n -> fhir: Consult Immunizations
+fhir -> n: Bundle
 end
 ...
-group "Immunization report"
-n -> fhir: "Register Immunization"
+group Immunization report
+n -> fhir: Register Immunization
 end
 ...
-group "Adverse Event Reporting"
-n -> fhir: "Register Adverse Event"
+group Adverse Event Reporting
+n -> fhir: Register Adverse Event
 end
 @enduml
