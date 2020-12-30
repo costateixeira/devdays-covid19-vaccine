@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-<!--
-  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-bundle">
-  <valueString value="examples-bundle"/>
-  </extension>
--->
   <id value="devdays.letsbuildafhirspec.igpublisher"/>
   <url value="https://fhir.devdays.com/R4/devdays-covid19-vaccine/ImplementationGuide/devdays.letsbuildafhirspec.igpublisher"/>
   <version value="0.1.0-test"/>
@@ -22,9 +17,15 @@
   </contact>
   <description value="ImplementationGuide for DevDays 2020 November session - Let's build an IG"/>
   <jurisdiction>
+    <!-- This will drive SNOMED release used -->
     <coding>
+      <!-- This is the code for universal -->
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
+      <!-- Change to this if the IG is country-specific
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      -->
     </coding>
   </jurisdiction>
   <packageId value="devdays.letsbuildafhirspec.igpublisher"/>
@@ -42,17 +43,24 @@
     <packageId value="uk.core.r4"/>
     <version value="1.3.0"/>
   </dependsOn> 
-
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-<!--<resource>
-<reference>
-<reference value="MyLogicalModel/AS"/>
-</reference>
-</resource> -->
 
-
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/immunization-model"/>
+      </reference>
+      <name value="Logical Data Model for Immunization"/>
+      <description value="Logical Data Model for Immunization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/immunization-profile"/>
+      </reference>
+      <name value="COVID-19 Immunization Profile"/>
+      <description value="A profile on the Immunization resource"/>
+    </resource>
     <resource>
       <reference>
         <reference value="SearchParameter/searchparameter-administeredproduct"/>
@@ -67,37 +75,10 @@
       <name value="Immunization - Example"/>
       <description value="Example of immunization administration"/>
       <exampleCanonical value="https://fhir.devdays.com/R4/StructureDefinition/ImmunizationProfile" />
+    </resource> 
 
-    </resource> 
-    <resource>
-      <reference>
-        <reference value="Patient/mary-roe"/>
-      </reference>
-      <name value="Patient example"/>
-      <description value="Example Patient - Mary Roe"/>
-    </resource> 
-<!--
-    <resource>
-      <reference>
-        <reference value="ExampleScenario/scenario-allergy"/>
-      </reference>
-      <name value="Example Scenario - Allergy / Intolerance"/>
-      <description value="Overriding description because we can"/>
-    </resource>
--->
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/immunization-model"/>
-      </reference>
-      <name value="Logical Data Model for Immunization"/>
-      <description value="Logical Data Model for Immunization"/>
-    </resource>    
-    <resource>
-      <reference>
-        <reference value="Bundle/h1"/>
-      </reference>
-      <name value="History"/>
-    </resource>
+
+
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>

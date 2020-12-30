@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "type": "fhir.template",
   "license": "CC0-1.0",
-  "description": "Local template extension for HL7 Affiliates",
+  "description": "Local template extension for my own IG",
   "author": "http://hl7.org/fhir",
 	"base":  "hl7.be.fhir.template",
   "dependencies": {
-    "hl7.be.fhir.template": "current",
-    "hl7.fhir.template.plugin.scenario": "current"
+    "hl7.be.fhir.template": "current"
   }
 }
