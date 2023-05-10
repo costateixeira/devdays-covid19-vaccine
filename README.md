@@ -1,20 +1,20 @@
-COVID-19 Vaccine example IG
+Empty IG
 ---
-This is an example Implementation Guide for presenting some features at DevDays 2020 November.
+This is an empty IG
 <br> </br>
 ###
 ### Publication
 This ImplementationGuide is published in the following locations:
 
-Continuous Build: __http://build.fhir.org/ig/costateixeira/devdays-covid19-vaccine/branches/main/index.html__  
+Continuous Build: __http://build.fhir.org/ig/<handle>/<repo>/branches/main/index.html__  
 Canonical / permanent URL: 
 <br> </br>
 
 ### Issues
 Issues and change requests are managed here:  
 
-Issues:  __https://github.com/costateixeira/devdays-covid19-vaccine/issues__  
-Kanban board:  __https://github.com/costateixeira/devdays-covid19-vaccine/projects/1__  
+Issues:  __https://github.com/<handle>/<repo>/issues__  
+Kanban board:  __https://github.com/<handle>/<repo>/projects/1__  
 
 ---
 

@@ -23,9 +23,7 @@
 				<a href="usecases.html">Use Cases</a>
 			</li>
 		</ul>
-
 	</li>
-
 	<li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
 		</a>
@@ -41,4 +39,4 @@
 			<li><a href="downloads.html">Downloads</a></li>
 		</ul>
 	</li>
-</ul>
+</ul>      

@@ -10,14 +10,15 @@
 <p>
 {% include immunization-usecases.svg %}
 </p>
-<h3 id="consult-immunizations">Consult immunizations</h3>
+
+<h3 id="consult-immunizations">Consult immunizations</h3>  <a name="consult-immunizations"> </a>
 <p>In this use case, the user (a nurse) consults the immunizations for a patient. This can be used to see whether a given patient is eligible for a vaccination. It can also be used to see if there are any events associated with a given immunization.</p>
 
-<h3 id="record-immunization">Record immunization</h3>
+<h3 id="record-immunization">Record immunization</h3>  <a name="record-immunization"> </a>
 <p>Upon giving (or not) a vaccine to a patient, the nurse records the event along with the details. This includes the disease (in our case, COVID-19), but also the detailed product code (in the national code system), and important logistic details like the lot number of the vaccine (and serial number if one exists).
 The data needs are expressed in the <a href="http://build.fhir.org/ig/costateixeira/devdays-covid19-vaccine/branches/main/StructureDefinition-model-immunization.html">logical model</a>.</p>
 
-<h3 id="record-adverse-event">Record adverse event</h3>
+<h3 id="record-adverse-event">Record adverse event</h3>  <a name="record-adverse-event"> </a>
 <p>Any adverse event that is noteworthy is captured by the nurse or another healthcare professional. This includes the entity that is suspected of causing the adverse event (in this case, the vaccine)</p>
 
 </div>
